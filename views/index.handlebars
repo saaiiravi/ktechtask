@@ -1,0 +1,19 @@
+<div id="wrapper">
+		<h3><center>Display Details</center></h3>
+		<center>	<img src="/images/display.JPEG" class="avatar" /> </center>
+		{{#if errors}}
+      		{{#each errors}}
+        		<div class="alert alert-danger">{{msg}}</div>
+			{{/each}}
+		{{/if}}
+		{{#if errors1}}
+			{{#each errors1}}
+        		<div class="alert alert-danger">{{msg}}</div>
+			{{/each}}
+		{{/if}}
+		{{#if datas}}
+      		{{#each datas}}
+        		<div class="alert alert-success">{{msg}}</div>
+			{{/each}}
+		{{/if}}
+</div>

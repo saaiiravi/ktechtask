@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="/jss/style.js"></script>
+  
+  <body>
+    <div id="gradient" />
+		<title> Register here! </title>
+		<link rel="stylesheet" href="/css/style.css"></head>
+
+<body style="background-color:#95a5a6">
+	<div id="main-wrapper">
+		<h2>
+			<center>Registration form</center></h2>
+		<center>
+			<img src="/images/clipart.JPEG" class="avatar" /></center>
+		<form class="myform" action="/reg" method="post">
+			<label>
+				<b>Name:</b></label>
+			<input type="text" class="inputvalues" placeholder="Type your name" name="name"><br>
+			
+			<label><b>Email:</b></label>
+			<input type="text" class="inputvalues" placeholder="Type your email" name="email" ><br>
+			
+			<label><b>Password:</b></label>
+			<input type="password" class="inputvalues" placeholder="Enter Password" name="password" >
+			
+			<label><b>Confirm Password</b></label>
+			<input type="password" class="inputvalues" placeholder="Enter confirm Password" name="cpassword">
+			
+			<label><b>Specify your Gender:</b></label> <br>
+  			<input type="radio" name="gender" value="male" > Male
+  			<input type="radio" name="gender" value="female"> Female
+  			<input type="radio" name="gender" value="other"> Other<br>
+
+			<label> <b>Select your state:</b></label><br>
+
+			<select name="states" required>
+			<option value="TamilNadu">Tamilnadu</option>
+			<option value="AndhraPradesh">AndhraPradesh</option>
+			<option value="Karnataka">Karnataka</option>
+			<option value="Kerala">Kerala</option><br>
+			<option value="ArunachalPradesh">ArunachalPradesh</option><br>
+			<option value="Assam">Assam</option><br>
+			<option value="Bihar">Bihar</option><br>
+			<option value="Chattisgarh">Chattisgarh</option><br>
+			<option value="Goa">Goa</option><br>
+			<option value="Gujarat">Gujarat</option><br>
+			<option value="Haryana">Haryana</option><br>
+			<option value="HiamchalPradesh">HimachalPradesh</option><br>
+			<option value="Jammu and kashmir">Jammu and kashmir</option><br>
+			<option value="Jharkhand">Jharkhand</option><br>
+			<option value="MadhyaPradesh">MadhyaPradesh</option><br>
+			<option value="Maharashtra">Maharashtra></option><br>
+			<option value="Manipur">Manipur</option><br>
+			<option value="Meghalaya">Meghalaya</option><br> 	</select>  <br>
+
+			<label><b>Date of birth:</b></label>
+			<input type="date" class="inputvalues" name="dob" placeholder="mm/dd/yy"><br>
+
+			<label><b>Contact Number:</b></label>
+			<input type="number" class="inputvalues" min="7000000000" maxlength=10 max="9999999999" name="contactnumber" placeholder="enter number" ><br>
+
+			<label><b>Alternate Contact Number:</b></label>
+			<input type="number" class="inputvalues" min="7000000000" maxlength=10 max="9999999999"  name="alternatecontact" placeholder="Enter alternate number" ><br>
+			
+			<input type="submit" id="signup_btn" value="Register"></input>
+
+		</form>	</div>	
+	{{{body}}}
+</body>
+</html>
